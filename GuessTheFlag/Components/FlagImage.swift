@@ -2,7 +2,7 @@
 //  FlagImage.swift
 //  GuessTheFlag
 //
-//  Created by Jonas Agnezi on 18/08/22.
+//  Created by itsjagnezi on 18/08/22.
 //
 
 import SwiftUI
@@ -23,6 +23,6 @@ struct FlagImage: View {
 
 struct FlagImage_Previews: PreviewProvider {
 	static var previews: some View {
-		FlagImage(country: "Germany")
+		FlagImage(country: "Germany", label: "Germany")
 	}
 }
