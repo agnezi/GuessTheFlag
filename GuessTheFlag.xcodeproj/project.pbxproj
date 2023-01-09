@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		886A248328AEA441008DFF60 /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886A248228AEA441008DFF60 /* FlagImage.swift */; };
 		88751B9528A839C50031601C /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88751B9428A839C50031601C /* GuessTheFlagApp.swift */; };
-		88751B9728A839C50031601C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88751B9628A839C50031601C /* ContentView.swift */; };
 		88751B9928A839C60031601C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88751B9828A839C60031601C /* Assets.xcassets */; };
 		88751B9C28A839C60031601C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88751B9B28A839C60031601C /* Preview Assets.xcassets */; };
+		88751BA328A83ECF0031601C /* ColorsAndShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88751BA228A83ECF0031601C /* ColorsAndShapes.swift */; };
+		88751BA528A840950031601C /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88751BA428A840950031601C /* Gradients.swift */; };
+		88751BA728A842DB0031601C /* ButtonsAndImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88751BA628A842DB0031601C /* ButtonsAndImages.swift */; };
+		88751BA928A848130031601C /* AlertaMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88751BA828A848130031601C /* AlertaMessages.swift */; };
+		88751BAB28A8494A0031601C /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88751BAA28A8494A0031601C /* Stacks.swift */; };
+		88961B4E296C827E00C74FBC /* ContentViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88961B4D296C827E00C74FBC /* ContentViewExtensions.swift */; };
+		88961B50296C829E00C74FBC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 88961B4F296C829E00C74FBC /* .gitignore */; };
+		88B4730828A9501300B1634E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4730728A9501300B1634E /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		886A248228AEA441008DFF60 /* FlagImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImage.swift; sourceTree = "<group>"; };
 		88751B9128A839C50031601C /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88751B9428A839C50031601C /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
-		88751B9628A839C50031601C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88751B9828A839C60031601C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88751B9B28A839C60031601C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88751BA228A83ECF0031601C /* ColorsAndShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsAndShapes.swift; sourceTree = "<group>"; };
+		88751BA428A840950031601C /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		88751BA628A842DB0031601C /* ButtonsAndImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsAndImages.swift; sourceTree = "<group>"; };
+		88751BA828A848130031601C /* AlertaMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertaMessages.swift; sourceTree = "<group>"; };
+		88751BAA28A8494A0031601C /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		88961B4D296C827E00C74FBC /* ContentViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewExtensions.swift; sourceTree = "<group>"; };
+		88961B4F296C829E00C74FBC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		88B4730728A9501300B1634E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,7 @@
 		88751B8828A839C50031601C = {
 			isa = PBXGroup;
 			children = (
+				88961B4F296C829E00C74FBC /* .gitignore */,
 				88751B9328A839C50031601C /* GuessTheFlag */,
 				88751B9228A839C50031601C /* Products */,
 			);
@@ -51,8 +68,11 @@
 		88751B9328A839C50031601C /* GuessTheFlag */ = {
 			isa = PBXGroup;
 			children = (
+				88961B51296C850000C74FBC /* Lessons */,
+				88961B52296C851E00C74FBC /* Components */,
+				88961B4D296C827E00C74FBC /* ContentViewExtensions.swift */,
 				88751B9428A839C50031601C /* GuessTheFlagApp.swift */,
-				88751B9628A839C50031601C /* ContentView.swift */,
+				88B4730728A9501300B1634E /* ContentView.swift */,
 				88751B9828A839C60031601C /* Assets.xcassets */,
 				88751B9A28A839C60031601C /* Preview Content */,
 			);
@@ -65,6 +85,26 @@
 				88751B9B28A839C60031601C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88961B51296C850000C74FBC /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				88751BA428A840950031601C /* Gradients.swift */,
+				88751BA228A83ECF0031601C /* ColorsAndShapes.swift */,
+				88751BAA28A8494A0031601C /* Stacks.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		88961B52296C851E00C74FBC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				88751BA828A848130031601C /* AlertaMessages.swift */,
+				886A248228AEA441008DFF60 /* FlagImage.swift */,
+				88751BA628A842DB0031601C /* ButtonsAndImages.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88751B9C28A839C60031601C /* Preview Assets.xcassets in Resources */,
+				88961B50296C829E00C74FBC /* .gitignore in Resources */,
 				88751B9928A839C60031601C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +178,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88751B9728A839C50031601C /* ContentView.swift in Sources */,
+				88751BA328A83ECF0031601C /* ColorsAndShapes.swift in Sources */,
+				88B4730828A9501300B1634E /* ContentView.swift in Sources */,
+				88751BA728A842DB0031601C /* ButtonsAndImages.swift in Sources */,
 				88751B9528A839C50031601C /* GuessTheFlagApp.swift in Sources */,
+				88961B4E296C827E00C74FBC /* ContentViewExtensions.swift in Sources */,
+				88751BAB28A8494A0031601C /* Stacks.swift in Sources */,
+				88751BA928A848130031601C /* AlertaMessages.swift in Sources */,
+				88751BA528A840950031601C /* Gradients.swift in Sources */,
+				886A248328AEA441008DFF60 /* FlagImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
